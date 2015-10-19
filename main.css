@@ -10,11 +10,22 @@ img {
     width: 30%;
     float: left;
     margin: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.octocat img {
     border: solid 1px #C9C9C9;
+    border-radius: 2px;
+}
+
+li.octocat{
+    border-bottom: solid 1px #C9C9C9;
+
 }
 
 .authors img{
     width: 20px;
+    border: none;
 }
 
 .image-footer{
@@ -23,12 +34,19 @@ img {
 
 .image-number{
     float: left;
-    vertical-align: bottom;
+    padding: 3px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.image-number:before {
+    content: "#";
 }
 
 .image-caption{
     float: right;
     display: inline;
+    text-align: center;
 }
 
 .image-caption span{
@@ -41,8 +59,14 @@ img {
     padding: 0px;
 }
 
-
 ul.authors{
     display: inline;
     padding: 0px;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
 }
