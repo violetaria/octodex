@@ -1,0 +1,48 @@
+li{
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.octocat{
+    width: 30%;
+    float: left;
+    margin: 10px 10px;
+    border: solid 1px #C9C9C9;
+}
+
+.authors img{
+    width: 20px;
+}
+
+.image-footer{
+    color: #C9C9C9;
+}
+
+.image-number{
+    float: left;
+    vertical-align: bottom;
+}
+
+.image-caption{
+    float: right;
+    display: inline;
+}
+
+.image-caption span{
+    color:  #7F7C7C;
+    font-weight: bold;
+    font-size: small;
+}
+.authors li{
+    display: inline;
+    padding: 0px;
+}
+
+
+ul.authors{
+    display: inline;
+    padding: 0px;
+}
