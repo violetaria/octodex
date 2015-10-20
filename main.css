@@ -36,7 +36,7 @@ li.octocat{
 
 .image-number{
     float: left;
-    padding: 3px;
+    margin-top: 5px;
     font-size: small;
     font-weight: bold;
 }
@@ -48,7 +48,11 @@ li.octocat{
 .image-caption{
     float: right;
     display: inline;
-    text-align: center;
+}
+
+.image-caption span, .image-caption a{
+    margin-bottom: 13px;
+    display: inline-block;
 }
 
 .image-caption span{
